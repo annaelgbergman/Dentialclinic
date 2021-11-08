@@ -190,10 +190,11 @@ background-color:#39ddc5;
 #about-us .container {
     background:url('img/placehold.male.svg');
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 50px;
-    
+    background-size: contain;
+    background-position: right;
+    position: relative;
 }
+
 #about-us .container {
     display: flex;
     justify-content: center; 
@@ -231,6 +232,7 @@ background-color:#39ddc5;
 }
 .paragraph p {
     margin-top: 1rem;
+    text-align: center;
     
 }
 #nr-info .container {
@@ -238,7 +240,6 @@ background-color:#39ddc5;
     justify-content:space-between;
     margin-top: 2rem; 
     /* margin-right: 6rem;  */
-    
 }
 #nr-info .container h1 {
     color: var(--blue-color);
