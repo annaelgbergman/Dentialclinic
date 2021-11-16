@@ -296,12 +296,13 @@ hr {
     align-items: center;
     text-align: center;
 }
-.card:hover > .avatar {
+.card:hover .avatar {
     background-color: var(--blue-color);
     box-shadow: 0px 0px 1px 10px #2ba8ec60;
 }
 .card:hover {
     box-shadow: 2px 2px 30px 0 var(--background-color);
+    transition-delay: 200ms;
 }
 .card-header h3 {
     padding-bottom: 1rem;
