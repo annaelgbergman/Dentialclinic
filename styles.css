@@ -303,6 +303,7 @@ hr {
 .card:hover {
     box-shadow: 2px 2px 30px 0 var(--background-color);
     transition-delay: 200ms;
+    cursor: pointer;
 }
 .card-header h3 {
     padding-bottom: 1rem;
