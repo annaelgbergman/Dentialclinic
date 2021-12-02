@@ -126,7 +126,6 @@ h1 {
 .navbar-brand img {
     height: 3.5rem;
 }
-
 .navbar-toggler {
     background-color: transparent;
     border: none;
@@ -203,7 +202,7 @@ background-color:var(--blue-color);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top, right;
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 .about-us .container img {
     width: 80%;
@@ -485,7 +484,6 @@ hr {
 .about-us .container img {
     display: flex;
     width: 100%;
-    margin-top: 5rem;
 }
 .about-us .container {
     background: none;
@@ -509,9 +507,6 @@ hr {
 }
 .grid-cards .container {
     grid-template-columns: repeat(2, 1fr);
-}
-.grid-cards {
-
 }
 .about-us .container img {
     display: flex;
